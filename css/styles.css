@@ -140,7 +140,7 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
   }
-  .address-link {
+  .address-link[href="https://goo.gl/maps/ojqtrY3gg8iYZvjQA"]{
     color: var(--second-accent-color);
   }
   .address-link {
