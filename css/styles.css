@@ -140,12 +140,16 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.address-link[href="https://goo.gl/maps/ojqtrY3gg8iYZvjQA"]
-{
+.address-link {
   color: var(--second-accent-color);
 }
 .address-link {
   color: var(--footer-contacts-color);
+}
+.address-link:hover,
+.address-link:focus {
+  color: var(--main-accent-color);
+}
 }
 /* ------------------------Стили для portfolio.html */
 .filters-btn {
@@ -161,7 +165,8 @@ body {
 }
 .filters-btn:hover,
 .filters-btn:focus {
-  font-variant: var(--main-accent-color);
+  color: var(--second-accent-color);
+  background-color: var(--main-accent-color);
 }
 .our-projects-title {
   font-size: 18px;
