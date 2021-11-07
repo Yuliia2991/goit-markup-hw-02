@@ -117,39 +117,39 @@ body {
 .team {
   background-color: var(--third-background-color);
 }
-.team-list {
+.team-person {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  text-align: center;
   letter-spacing: 0.03em;
-}
-.team-title {
-  font-weight: 500;
 }
 .team-text {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
   color: var(--text-color);
 }
-/* --------------Стили футера-------------- */
-.footer {
-  background-color: var(--second-background-color);
-}
-.address-list {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-}
-.address-link {
-  color: var(--second-accent-color);
-}
-.address-link {
-  color: var(--footer-contacts-color);
-}
-.address-link:hover,
-.address-link:focus {
-  color: var(--main-accent-color);
-}
+  /* --------------Стили футера-------------- */
+  .footer {
+    background-color: var(--second-background-color);
+  }
+  .address-list {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+  }
+  .address-link {
+    color: var(--second-accent-color);
+  }
+  .address-link {
+    color: var(--footer-contacts-color);
+  }
+  .address-link:hover,
+  .address-link:focus {
+    color: var(--main-accent-color);
+  }
 }
 /* ------------------------Стили для portfolio.html */
 .filters-btn {
